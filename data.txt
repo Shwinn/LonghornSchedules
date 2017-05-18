@@ -944,7 +944,7 @@
         <input type="hidden" value="00" name="mtg_start_time_st" />
         <input type="hidden" value="" name="core_code" />
         <input type="submit" value="Refine &#x25B6;" class="pure-css-button" />
-        <a href="?search_type_main=UNIQUE&amp;start_unique=00000&amp;end_unique=99999&amp;ccyys=20172&amp;next_unique=00000&amp;unique_number=&amp;" title="Reset all search options" id="reset" class="helper_text">reset search</a> 
+        <a href="?search_type_main=UNIQUE&amp;start_unique=00000&amp;end_unique=99999&amp;ccyys=20172&amp;next_unique=00430&amp;unique_number=&amp;" title="Reset all search options" id="reset" class="helper_text">reset search</a> 
     </form>
 </div><!-- filter -->
                    
@@ -960,6 +960,9 @@
                     <div class="gobutton"  id="smaller_reg">
                         <a id="regLink" href="https://utdirect.utexas.edu/registration/chooseSemester.WBX" title="Register" target="_top">Register</a>
                     </div>
+                    <div class="gobutton">
+                        <a id="regLink" href="https://utdirect.utexas.edu/apps/student/coursedocs/nlogon/" title="Past CVs and Syllabi" target="_top">Past CVs and Syllabi</a>
+                    </div>
                     
                     <p><a id="howTo" href="http://registrar.utexas.edu/schedules/172/whentoregister/" title="How to register and pay">&raquo; how to register and pay </a></p>
                 </div><!--registration_info-->
@@ -972,8 +975,10 @@
 		      	        <p class="helper_text" style="clear:both">Click a unique number to see course details.</p>
       <div>
         
+        <a href="?search_type_main=UNIQUE&amp;start_unique=00000&amp;end_unique=99999&amp;ccyys=20172&amp;unique_number=&amp;previous_unique=00430" id="prev_nav_link" title="previous listing">&laquo; prev</a>
         
-        <a href="?search_type_main=UNIQUE&amp;start_unique=00000&amp;end_unique=99999&amp;ccyys=20172&amp;next_unique=00430&amp;unique_number=" id="next_nav_link" title="next listing">next &raquo;</a>
+        
+        <a href="?search_type_main=UNIQUE&amp;start_unique=00000&amp;end_unique=99999&amp;ccyys=20172&amp;next_unique=00610&amp;unique_number=" id="next_nav_link" title="next listing">next &raquo;</a>
         
     </div>
 <! -- data-th tags in this table are for vertical display for phones and resized browsers -->
@@ -998,458 +1003,15 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  310L DESIGN II         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  385L CONST II: INT MATLS/ASSEMBLIES         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00310/" title="Unique number">00310</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >10:00 a.m.-1:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span > </span><br> </td>
-           <td data-th="Instructor"></td>
-           <td data-th="Status">cancelled</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00315/" title="Unique number">00315</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >10:00 a.m.-1:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >SUT 5.100</span><br> </td>
-           <td data-th="Instructor">ROSNER, J</td>
-           <td data-th="Status">closed</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00320/" title="Unique number">00320</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >10:00 a.m.-1:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >SUT 5.100</span><br> </td>
-           <td data-th="Instructor">MILOVANOVIC-BERTRA</td>
-           <td data-th="Status">closed</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00321/" title="Unique number">00321</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >10:00 a.m.-1:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span > </span><br> </td>
-           <td data-th="Instructor">BENEDIKT, M</td>
-           <td data-th="Status">cancelled</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00322/" title="Unique number">00322</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >10:00 a.m.-1:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >SUT 5.100</span><br> </td>
-           <td data-th="Instructor">PINTO DE OLIVEIRA</td>
-           <td data-th="Status">closed</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00323/" title="Unique number">00323</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >10:00 a.m.-1:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >SUT 5.100</span><br> </td>
-           <td data-th="Instructor">ODOM, C</td>
-           <td data-th="Status">closed</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00324/" title="Unique number">00324</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >10:00 a.m.-1:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >SUT 5.100</span><br> </td>
-           <td data-th="Instructor">GRAHAM, R</td>
-           <td data-th="Status">closed</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  311L VISUAL COMMUNICATION II         </h2></td>
-       </tr>
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00325/" title="Unique number">00325</a></td>
-           <td data-th="Days"> <span >TTH</span><br> </td>
-           <td data-th="Hour"> <span >8:00 a.m.-11:00 a.m.</span><br> </td>
-           <td data-th="Room"> <span >GOL 2.110</span><br> </td>
-           <td data-th="Instructor">SIDDIQUI, I</td>
-           <td data-th="Status">closed</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00330/" title="Unique number">00330</a></td>
-           <td data-th="Days"> <span >TTH</span><br> </td>
-           <td data-th="Hour"> <span >8:00 a.m.-11:00 a.m.</span><br> </td>
-           <td data-th="Room"> <span >WMB 1.114</span><br> </td>
-           <td data-th="Instructor">SIDDIQUI, I</td>
-           <td data-th="Status">open; restricted</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  318M INTERIOR DESIGN HISTORY         </h2></td>
-       </tr>
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00335/" title="Unique number">00335</a></td>
-           <td data-th="Days"> <span >TTH</span><br> </td>
-           <td data-th="Hour"> <span >9:30 a.m.-11:00 a.m.</span><br> </td>
-           <td data-th="Room"> <span >PAR 210</span><br> </td>
-           <td data-th="Instructor">DUDLEY, T</td>
-           <td data-th="Status">closed</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  520L DESIGN IV-INTERIORS         </h2></td>
-       </tr>
-       
-       <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00340/" title="Unique number">00340</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >9:00 a.m.-1:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >GOL 3.112</span><br> </td>
-           <td data-th="Instructor">SCHONE, E</td>
-           <td data-th="Status">open; restricted</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		               <li class="II" title="Independent inquiry flag">Independent inquiry</li>
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  130 INTERIOR DESIGN INTERNSHIP         </h2></td>
-       </tr>
-       
-       <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00345/" title="Unique number">00345</a></td>
-           <td data-th="Days"></td>
-           <td data-th="Hour"></td>
-           <td data-th="Room"></td>
-           <td data-th="Instructor"></td>
-           <td data-th="Status">open; restricted</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  530T DESIGN VI-INTERIORS         </h2></td>
-       </tr>
-       
-       <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00350/" title="Unique number">00350</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >GOL 3.112</span><br> </td>
-           <td data-th="Instructor">JOHNSON, D</td>
-           <td data-th="Status">open; restricted</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		               <li class="II" title="Independent inquiry flag">Independent inquiry</li>
-		           
-		               <li class="" title=" flag"></li>
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  434K CONST II-INT MATLS/ASSEMBLIES         </h2></td>
-       </tr>
-       
-       <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00355/" title="Unique number">00355</a></td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00430/" title="Unique number">00430</a></td>
            <td data-th="Days"> <span >TTH</span><br> </td>
            <td data-th="Hour"> <span >12:30 p.m.-3:30 p.m.</span><br> </td>
            <td data-th="Room"> <span >WMB 3.116</span><br> </td>
            <td data-th="Instructor">GLASS, T</td>
-           <td data-th="Status">open; restricted</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  342D FRANK LLOYD WRIGHT: DES/MTD/TH         </h2></td>
-       </tr>
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00358/" title="Unique number">00358</a></td>
-           <td data-th="Days"> <span >T</span><br> </td>
-           <td data-th="Hour"> <span >2:00 p.m.-5:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >WMB 4.118</span><br> </td>
-           <td data-th="Instructor">ALOFSIN, A</td>
-           <td data-th="Status">cancelled</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  342G AMERICAN HOME: ID/PROC/MKTNG         </h2></td>
-       </tr>
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00359/" title="Unique number">00359</a></td>
-           <td data-th="Days"> <span >W</span><br> </td>
-           <td data-th="Hour"> <span >9:00 a.m.-12:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >WMB 3.116</span><br> </td>
-           <td data-th="Instructor">ALOFSIN, A</td>
            <td data-th="Status">closed</td>
            
            <td data-th="Flags">
@@ -1472,11 +1034,11 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  350R INSIDE UTOPIA         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  386M INSIDE UTOPIA         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00360/" title="Unique number">00360</a></td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00435/" title="Unique number">00435</a></td>
            <td data-th="Days"> <span >TTH</span><br> </td>
            <td data-th="Hour"> <span >5:30 p.m.-7:00 p.m.</span><br> </td>
            <td data-th="Room"> <span >WMB 4.118</span><br> </td>
@@ -1503,11 +1065,11 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  350R MANAGING THE DESIGN PROJECT         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  386M MANAGING THE DESIGN PROJECT         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00365/" title="Unique number">00365</a></td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00440/" title="Unique number">00440</a></td>
            <td data-th="Days"> <span >TH</span><br> </td>
            <td data-th="Hour"> <span >2:00 p.m.-5:00 p.m.</span><br> </td>
            <td data-th="Room"> <span >WMB 3.108</span><br> </td>
@@ -1534,16 +1096,16 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  350R SUPRAFICIAL         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  386M SUPRAFICIAL         </h2></td>
        </tr>
        
-       <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00370/" title="Unique number">00370</a></td>
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00445/" title="Unique number">00445</a></td>
            <td data-th="Days"> <span >TH</span><br> </td>
            <td data-th="Hour"> <span >7:00 p.m.-10:00 p.m.</span><br> </td>
            <td data-th="Room"> <span >SUT 2.110</span><br> </td>
            <td data-th="Instructor">BIEG, K</td>
-           <td data-th="Status">open</td>
+           <td data-th="Status">closed</td>
            
            <td data-th="Flags">
 	           <div class="flag_block">
@@ -1565,15 +1127,232 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  560R ADV DESIGN: INTERIORS         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  388K INTERIOR DESIGN HISTORY I         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00450/" title="Unique number">00450</a></td>
+           <td data-th="Days"> <span >TTH</span><br> </td>
+           <td data-th="Hour"> <span >9:30 a.m.-11:00 a.m.</span><br> </td>
+           <td data-th="Room"> <span >PAR 210</span><br> </td>
+           <td data-th="Instructor">DUDLEY, T</td>
+           <td data-th="Status">closed</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  388R AMERICAN HOME         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00455/" title="Unique number">00455</a></td>
+           <td data-th="Days"> <span >W</span><br> </td>
+           <td data-th="Hour"> <span >9:00 a.m.-12:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >WMB 3.116</span><br> </td>
+           <td data-th="Instructor">ALOFSIN, A</td>
+           <td data-th="Status">cancelled</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  388R CENT EUROPEAN ARCH, 1648-PRES         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00460/" title="Unique number">00460</a></td>
+           <td data-th="Days"> <span >TTH</span><br> </td>
+           <td data-th="Hour"> <span >12:30 p.m.-2:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >BTL 101</span><br> </td>
+           <td data-th="Instructor">LONG, C</td>
+           <td data-th="Status">cancelled</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  388R FRANK LLOYD WRIGHT         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00465/" title="Unique number">00465</a></td>
+           <td data-th="Days"> <span >TTH</span><br> </td>
+           <td data-th="Hour"> <span >3:30 p.m.-5:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >GOL 3.120</span><br> </td>
+           <td data-th="Instructor">ALOFSIN, A</td>
+           <td data-th="Status">cancelled</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  388R MODERN AMERICAN DESIGN         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00470/" title="Unique number">00470</a></td>
+           <td data-th="Days"> <span >M</span><br> </td>
+           <td data-th="Hour"> <span >9:00 a.m.-12:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >BTL 101</span><br> </td>
+           <td data-th="Instructor">LONG, C</td>
+           <td data-th="Status">cancelled</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  689 RESEARCH IN INTERIOR DESIGN         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00475/" title="Unique number">00475</a></td>
+           <td data-th="Days"></td>
+           <td data-th="Hour"></td>
+           <td data-th="Room"></td>
+           <td data-th="Instructor"></td>
+           <td data-th="Status">cancelled</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  392P PROTOTYPE         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00476/" title="Unique number">00476</a></td>
+           <td data-th="Days"> <span >W</span><br> </td>
+           <td data-th="Hour"> <span >7:00 p.m.-10:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >SUT 2.110</span><br> </td>
+           <td data-th="Instructor">SIDDIQUI, I</td>
+           <td data-th="Status">closed</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  693 MASTER&#39;S DSN STUDIO: INTERIORS         </h2></td>
        </tr>
        
        <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00375/" title="Unique number">00375</a></td>
-           <td data-th="Days"> <span >MWF</span><br> </td>
-           <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >GOL 2.214</span><br> </td>
-           <td data-th="Instructor">BLACK, C</td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00477/" title="Unique number">00477</a></td>
+           <td data-th="Days"></td>
+           <td data-th="Hour"></td>
+           <td data-th="Room"></td>
+           <td data-th="Instructor"></td>
            <td data-th="Status">open; restricted</td>
            
            <td data-th="Flags">
@@ -1596,11 +1375,193 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  560R ADV DSGN: GULF COAST DSGN LAB         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  693L INTERIOR DESIGN CORE STUDIO II         </h2></td>
+       </tr>
+       
+       <tr >
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00480/" title="Unique number">00480</a></td>
+           <td data-th="Days"> <span >MWF</span><br> </td>
+           <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >GOL 4.106</span><br> </td>
+           <td data-th="Instructor">ALFORD, E</td>
+           <td data-th="Status">open; restricted</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  695 INTERIOR DSGN: TECHNCL STUDIO         </h2></td>
+       </tr>
+       
+       <tr >
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00485/" title="Unique number">00485</a></td>
+           <td data-th="Days"> <span >MWF</span><br> </td>
+           <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >GOL 3.112</span><br> </td>
+           <td data-th="Instructor">JOHNSON, D</td>
+           <td data-th="Status">open; restricted</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  395D FRANK LLOYD WRIGHT: DES/MTD/TH         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00380/" title="Unique number">00380</a></td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00487/" title="Unique number">00487</a></td>
+           <td data-th="Days"> <span >T</span><br> </td>
+           <td data-th="Hour"> <span >2:00 p.m.-5:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >WMB 4.118</span><br> </td>
+           <td data-th="Instructor">ALOFSIN, A</td>
+           <td data-th="Status">cancelled</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  395G AMERICAN HOME: ID/PROC/MKTNG         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00489/" title="Unique number">00489</a></td>
+           <td data-th="Days"> <span >W</span><br> </td>
+           <td data-th="Hour"> <span >9:00 a.m.-12:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >WMB 3.116</span><br> </td>
+           <td data-th="Instructor">ALOFSIN, A</td>
+           <td data-th="Status">cancelled</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  696 ADV DESIGN: INTERIORS         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00490/" title="Unique number">00490</a></td>
+           <td data-th="Days"> <span >MWF</span><br> </td>
+           <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span >GOL 2.214</span><br> </td>
+           <td data-th="Instructor">BLACK, C</td>
+           <td data-th="Status">closed</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00495/" title="Unique number">00495</a></td>
+           <td data-th="Days"></td>
+           <td data-th="Hour"></td>
+           <td data-th="Room"></td>
+           <td data-th="Instructor"></td>
+           <td data-th="Status">cancelled</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="" title=" core curriculum requirement"></li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr>
+       <td class="course_header" colspan="8"><h2>ARI  696 ADV DSGN: GULF COAST DSGN LAB         </h2></td>
+       </tr>
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00500/" title="Unique number">00500</a></td>
            <td data-th="Days"> <span >MWF</span><br> </td>
            <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
            <td data-th="Room"> <span >SUT 2.102</span><br> </td>
@@ -1627,11 +1588,11 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  560R ADV DESIGN: URBAN DESIGN         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  696 ADV DESIGN: URBAN DESIGN         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00385/" title="Unique number">00385</a></td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00505/" title="Unique number">00505</a></td>
            <td data-th="Days"> <span >MWF</span><br> </td>
            <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
            <td data-th="Room"> <span > </span><br> </td>
@@ -1658,14 +1619,14 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  560R ADV DESIGN: VISITING CRITIC         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  696 ADV DESIGN: VISITING CRITIC         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00390/" title="Unique number">00390</a></td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00510/" title="Unique number">00510</a></td>
            <td data-th="Days"> <span >MWF</span><br> </td>
            <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >GOL 3.124</span><br> </td>
+           <td data-th="Room"> <span > </span><br> </td>
            <td data-th="Instructor"></td>
            <td data-th="Status">cancelled</td>
            
@@ -1689,14 +1650,14 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  560R ADVANCED DESIGN         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  696 ADVANCED DESIGN         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00395/" title="Unique number">00395</a></td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00515/" title="Unique number">00515</a></td>
            <td data-th="Days"> <span >MWF</span><br> </td>
            <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >GOL 3.108</span><br> </td>
+           <td data-th="Room"> <span > </span><br> </td>
            <td data-th="Instructor"></td>
            <td data-th="Status">cancelled</td>
            
@@ -1720,26 +1681,20 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  362 INTERIOR DESIGN PRACTICE         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  696 ADVANCED DESIGN: STUDIO MEXICO         </h2></td>
        </tr>
        
-       <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00400/" title="Unique number">00400</a></td>
-           <td data-th="Days"> <span >TTH</span><br> </td>
-           <td data-th="Hour"> <span >9:30 a.m.-11:00 a.m.</span><br> </td>
-           <td data-th="Room"> <span >WMB 3.108</span><br> </td>
-           <td data-th="Instructor">ODOM, C</td>
-           <td data-th="Status">open; restricted</td>
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00520/" title="Unique number">00520</a></td>
+           <td data-th="Days"> <span >MWF</span><br> </td>
+           <td data-th="Hour"> <span >1:00 p.m.-6:00 p.m.</span><br> </td>
+           <td data-th="Room"> <span > </span><br> </td>
+           <td data-th="Instructor"></td>
+           <td data-th="Status">cancelled</td>
            
            <td data-th="Flags">
 	           <div class="flag_block">
 		           <ul class="flag">
-		           
-		               <li class="EL" title="Ethics and leadership flag">Ethics and leadership</li>
-		           
-		               <li class="" title=" flag"></li>
-		           
-		               <li class="" title=" flag"></li>
 		           
 		           </ul>
 		       </div>
@@ -1757,11 +1712,11 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  279 INTERIOR DESIGN RESEARCH         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  197 INTERIOR DESIGN INTERNSHIP         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00405/" title="Unique number">00405</a></td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00525/" title="Unique number">00525</a></td>
            <td data-th="Days"></td>
            <td data-th="Hour"></td>
            <td data-th="Room"></td>
@@ -1788,77 +1743,15 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  379 INTERIOR DESIGN RESEARCH         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARI  698B THESIS         </h2></td>
        </tr>
        
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00410/" title="Unique number">00410</a></td>
+       <tr >
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00530/" title="Unique number">00530</a></td>
            <td data-th="Days"></td>
            <td data-th="Hour"></td>
            <td data-th="Room"></td>
            <td data-th="Instructor"></td>
-           <td data-th="Status">cancelled</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  381R DIGITAL DRAWING &amp; FABRICATION         </h2></td>
-       </tr>
-       
-       <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00415/" title="Unique number">00415</a></td>
-           <td data-th="Days"> <span >MW</span><br> </td>
-           <td data-th="Hour"> <span >8:30 a.m.-10:00 a.m.</span><br> </td>
-           <td data-th="Room"> <span >WMB 1.114</span><br> </td>
-           <td data-th="Instructor">PINTO DE OLIVEIRA</td>
-           <td data-th="Status">closed</td>
-           
-           <td data-th="Flags">
-	           <div class="flag_block">
-		           <ul class="flag">
-		           
-		           </ul>
-		       </div>
-           </td>
-           
-           <td data-th="Core">
-	           <div class="core_block">
-		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
-		           </ul>
-		       </div>
-           </td>
-           
-       </tr>
-    
-       
-       <tr>
-       <td class="course_header" colspan="8"><h2>ARI  382 INTERIOR DESIGN PRACTICE         </h2></td>
-       </tr>
-       
-       <tr >
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00420/" title="Unique number">00420</a></td>
-           <td data-th="Days"> <span >TTH</span><br> </td>
-           <td data-th="Hour"> <span >9:30 a.m.-11:00 a.m.</span><br> </td>
-           <td data-th="Room"> <span >WMB 3.108</span><br> </td>
-           <td data-th="Instructor">ODOM, C</td>
            <td data-th="Status">open; restricted</td>
            
            <td data-th="Flags">
@@ -1881,20 +1774,22 @@
     
        
        <tr>
-       <td class="course_header" colspan="8"><h2>ARI  384K ENVIRONMENTAL CONTROL I         </h2></td>
+       <td class="course_header" colspan="8"><h2>ARC  308 ARCHITECTURE AND SOCIETY         </h2></td>
        </tr>
        
        <tr class="unavailable">
-           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00425/" title="Unique number">00425</a></td>
-           <td data-th="Days"> <span >MW</span><br>  <span class="second-row">M</span><br> </td>
-           <td data-th="Hour"> <span >10:30 a.m.-12:00 p.m.</span><br>  <span class="second-row">7:00 p.m.-8:00 p.m.</span><br> </td>
-           <td data-th="Room"> <span >SUT 2.114</span><br>  <span class="second-row">PAR 101</span><br> </td>
-           <td data-th="Instructor">PYREK, A</td>
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00585/" title="Unique number">00585</a></td>
+           <td data-th="Days"> <span >TTH</span><br>  <span class="second-row">M</span><br> </td>
+           <td data-th="Hour"> <span >12:30 p.m.-2:00 p.m.</span><br>  <span class="second-row">9:00 a.m.-10:00 a.m.</span><br> </td>
+           <td data-th="Room"> <span >BUR 106</span><br>  <span class="second-row">MEZ 1.208</span><br> </td>
+           <td data-th="Instructor">SPECK, L</td>
            <td data-th="Status">closed</td>
            
            <td data-th="Flags">
 	           <div class="flag_block">
 		           <ul class="flag">
+		           
+		               <li class="GC" title="Global cultures flag">Global cultures</li>
 		           
 		           </ul>
 		       </div>
@@ -1903,7 +1798,137 @@
            <td data-th="Core">
 	           <div class="core_block">
 		           <ul class="core">
-		               <li class="" title=" core curriculum requirement"></li>
+		               <li class="VP" title="Visual &amp; Performing Arts (I) core curriculum requirement">Visual &amp; Performing Arts (I)</li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr >
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00590/" title="Unique number">00590</a></td>
+           <td data-th="Days"> <span >TTH</span><br>  <span class="second-row">W</span><br> </td>
+           <td data-th="Hour"> <span >12:30 p.m.-2:00 p.m.</span><br>  <span class="second-row">9:00 a.m.-10:00 a.m.</span><br> </td>
+           <td data-th="Room"> <span >BUR 106</span><br>  <span class="second-row">MEZ 1.202</span><br> </td>
+           <td data-th="Instructor">SPECK, L</td>
+           <td data-th="Status">open</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		               <li class="GC" title="Global cultures flag">Global cultures</li>
+		           
+		               <li class="" title=" flag"></li>
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="VP" title="Visual &amp; Performing Arts (I) core curriculum requirement">Visual &amp; Performing Arts (I)</li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr class="unavailable">
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00595/" title="Unique number">00595</a></td>
+           <td data-th="Days"> <span >TTH</span><br>  <span class="second-row">W</span><br> </td>
+           <td data-th="Hour"> <span >12:30 p.m.-2:00 p.m.</span><br>  <span class="second-row">9:00 a.m.-10:00 a.m.</span><br> </td>
+           <td data-th="Room"> <span >BUR 106</span><br>  <span class="second-row">GAR 0.128</span><br> </td>
+           <td data-th="Instructor">SPECK, L</td>
+           <td data-th="Status">closed</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		               <li class="GC" title="Global cultures flag">Global cultures</li>
+		           
+		               <li class="" title=" flag"></li>
+		           
+		               <li class="" title=" flag"></li>
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="VP" title="Visual &amp; Performing Arts (I) core curriculum requirement">Visual &amp; Performing Arts (I)</li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr >
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00600/" title="Unique number">00600</a></td>
+           <td data-th="Days"> <span >TTH</span><br>  <span class="second-row">F</span><br> </td>
+           <td data-th="Hour"> <span >12:30 p.m.-2:00 p.m.</span><br>  <span class="second-row">9:00 a.m.-10:00 a.m.</span><br> </td>
+           <td data-th="Room"> <span >BUR 106</span><br>  <span class="second-row">PAR 306</span><br> </td>
+           <td data-th="Instructor">SPECK, L</td>
+           <td data-th="Status">open</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		               <li class="GC" title="Global cultures flag">Global cultures</li>
+		           
+		               <li class="" title=" flag"></li>
+		           
+		               <li class="" title=" flag"></li>
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="VP" title="Visual &amp; Performing Arts (I) core curriculum requirement">Visual &amp; Performing Arts (I)</li>
+		           </ul>
+		       </div>
+           </td>
+           
+       </tr>
+    
+       
+       <tr >
+           <td data-th="Unique"><a href="/apps/registrar/course_schedule/20172/00605/" title="Unique number">00605</a></td>
+           <td data-th="Days"> <span >TTH</span><br>  <span class="second-row">F</span><br> </td>
+           <td data-th="Hour"> <span >12:30 p.m.-2:00 p.m.</span><br>  <span class="second-row">9:00 a.m.-10:00 a.m.</span><br> </td>
+           <td data-th="Room"> <span >BUR 106</span><br>  <span class="second-row">WMB 4.118</span><br> </td>
+           <td data-th="Instructor">SPECK, L</td>
+           <td data-th="Status">open</td>
+           
+           <td data-th="Flags">
+	           <div class="flag_block">
+		           <ul class="flag">
+		           
+		               <li class="GC" title="Global cultures flag">Global cultures</li>
+		           
+		               <li class="" title=" flag"></li>
+		           
+		               <li class="" title=" flag"></li>
+		           
+		           </ul>
+		       </div>
+           </td>
+           
+           <td data-th="Core">
+	           <div class="core_block">
+		           <ul class="core">
+		               <li class="VP" title="Visual &amp; Performing Arts (I) core curriculum requirement">Visual &amp; Performing Arts (I)</li>
 		           </ul>
 		       </div>
            </td>
@@ -1917,8 +1942,10 @@
     <!--  these show up conditionally -->
     <div>
     	
+	    <a href="?search_type_main=UNIQUE&amp;start_unique=00000&amp;end_unique=99999&amp;ccyys=20172&amp;unique_number=&amp;previous_unique=00430" id="prev_nav_link" title="previous listing">&laquo; prev</a>
 	    
-	    <a href="?search_type_main=UNIQUE&amp;start_unique=00000&amp;end_unique=99999&amp;ccyys=20172&amp;next_unique=00430&amp;unique_number=" id="next_nav_link" title="next listing">next &raquo;</a>
+	    
+	    <a href="?search_type_main=UNIQUE&amp;start_unique=00000&amp;end_unique=99999&amp;ccyys=20172&amp;next_unique=00610&amp;unique_number=" id="next_nav_link" title="next listing">next &raquo;</a>
 	    
 
     </div>
