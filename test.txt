@@ -1,0 +1,200 @@
+ARI  385L CONST II: INT MATLS/ASSEMBLIES         
+00430
+closed
+TTH
+12:30 p.m.-3:30 p.m.
+WMB 3.116
+None
+
+ARI  386M INSIDE UTOPIA         
+00435
+cancelled
+TTH
+5:30 p.m.-7:00 p.m.
+WMB 4.118
+None
+
+ARI  386M MANAGING THE DESIGN PROJECT         
+00440
+closed
+TH
+2:00 p.m.-5:00 p.m.
+WMB 3.108
+None
+
+ARI  386M SUPRAFICIAL         
+00445
+closed
+TH
+7:00 p.m.-10:00 p.m.
+SUT 2.110
+None
+
+ARI  388K INTERIOR DESIGN HISTORY I         
+00450
+closed
+TTH
+9:30 a.m.-11:00 a.m.
+PAR 210
+None
+
+ARI  388R AMERICAN HOME         
+00455
+cancelled
+W
+9:00 a.m.-12:00 p.m.
+WMB 3.116
+None
+
+ARI  388R CENT EUROPEAN ARCH, 1648-PRES         
+00460
+cancelled
+TTH
+12:30 p.m.-2:00 p.m.
+BTL 101
+None
+
+ARI  388R FRANK LLOYD WRIGHT         
+00465
+cancelled
+TTH
+3:30 p.m.-5:00 p.m.
+GOL 3.120
+None
+
+ARI  388R MODERN AMERICAN DESIGN         
+00470
+cancelled
+M
+9:00 a.m.-12:00 p.m.
+BTL 101
+None
+
+ARI  689 RESEARCH IN INTERIOR DESIGN         
+00475
+cancelled
+None
+None
+Online
+None
+
+ARI  392P PROTOTYPE         
+00476
+closed
+W
+7:00 p.m.-10:00 p.m.
+SUT 2.110
+None
+
+ARI  693 MASTER'S DSN STUDIO: INTERIORS         
+00477
+open; restricted
+None
+None
+Online
+None
+
+ARI  693L INTERIOR DESIGN CORE STUDIO II         
+00480
+open; restricted
+MWF
+1:00 p.m.-6:00 p.m.
+GOL 4.106
+None
+
+ARI  695 INTERIOR DSGN: TECHNCL STUDIO         
+00485
+open; restricted
+MWF
+1:00 p.m.-6:00 p.m.
+GOL 3.112
+None
+
+ARI  395D FRANK LLOYD WRIGHT: DES/MTD/TH         
+00487
+cancelled
+T
+2:00 p.m.-5:00 p.m.
+WMB 4.118
+None
+
+ARI  395G AMERICAN HOME: ID/PROC/MKTNG         
+00489
+cancelled
+W
+9:00 a.m.-12:00 p.m.
+WMB 3.116
+None
+
+ARI  696 ADV DESIGN: INTERIORS         
+00490
+closed
+MWF
+1:00 p.m.-6:00 p.m.
+GOL 2.214
+None
+
+ARI  696 ADV DSGN: GULF COAST DSGN LAB         
+00495
+cancelled
+None
+None
+Online
+None
+
+ARI  696 ADV DESIGN: URBAN DESIGN         
+00500
+cancelled
+MWF
+1:00 p.m.-6:00 p.m.
+SUT 2.102
+None
+
+ARI  696 ADV DESIGN: VISITING CRITIC         
+00505
+cancelled
+MWF
+1:00 p.m.-6:00 p.m.
+ 
+None
+
+ARI  696 ADVANCED DESIGN         
+00510
+cancelled
+MWF
+1:00 p.m.-6:00 p.m.
+ 
+None
+
+ARI  696 ADVANCED DESIGN: STUDIO MEXICO         
+00515
+cancelled
+MWF
+1:00 p.m.-6:00 p.m.
+ 
+None
+
+ARI  197 INTERIOR DESIGN INTERNSHIP         
+00520
+cancelled
+MWF
+1:00 p.m.-6:00 p.m.
+ 
+None
+
+ARI  698B THESIS         
+00525
+cancelled
+None
+None
+Online
+None
+
+ARC  308 ARCHITECTURE AND SOCIETY         
+00530
+open; restricted
+None
+None
+Online
+None
+
