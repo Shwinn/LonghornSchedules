@@ -6,79 +6,107 @@ soup = BeautifulSoup(data, 'html.parser')
 
 test = open("test.txt" , 'w')
 
-#this array has everything that we need --course name, days, times
-courseInfo = soup.find_all('td')
-
 #arrays of data
 className = []
 classUnique = []
 classDays = []
+classDays2 = []
 classTime = []
+classTime2 = []
 classRoom = []
+classRoom2 = []
 classInstructor = []
 classStatus = []
 
+#this array has everything that we need --course name, days, times
+tableBody = soup.tbody
+courseInfo = tableBody.find_all('tr')
 
-for x in range(0, len(courseInfo)):
+classIndex = 0
 
-	#populate className with all classNames
-    classAttribute = courseInfo[x].get('class')
-    if(classAttribute != None):
-        if classAttribute[0] == 'course_header':
-            className.append(courseInfo[x].h2.string)
+for x in range(len(courseInfo)-1):
+	classAttribute = courseInfo[x].td.get('class')
+	if(classAttribute != None):
+		if(classAttribute[0] == 'course_header'):
+			classNameIndex = x;
+			x += 1
 
-    #populate classUnique with all class unique ID's
-    classAttribute = courseInfo[x].get('data-th')
-    if classAttribute != None:
+			while(True):
+				className.append(courseInfo[classNameIndex].h2.string)
 
-    	#class Unique
-    	if classAttribute == 'Unique':
-    		classUnique.append(courseInfo[x].a.string)
+				classData = courseInfo[x].find_all('td')
 
-    	#class Days
-    	elif classAttribute == 'Days':
-    		if(courseInfo[x].span == None):
-    			classDays.append("None")
-    		else:
-    			classDays.append(courseInfo[x].span.string)
+				for y in range(6):
+					content = classData[y].contents
 
-    	#class Time
-    	elif classAttribute == 'Hour':
-    		if(courseInfo[x].span == None):
-    			classTime.append("None")
-    		else:
-    			classTime.append(courseInfo[x].span.string)
+					#unique ID
+					if(y == 0):
+						classUnique.append(content[0].string)
+					#Days
+					elif(y == 1):
+						if(len(content) == 0):
+							classDays.append("None")
+							classDays2.append("None")
+						else:
+							if(content[1] != None):
+								classDays.append(content[1].string)
+								if(content[2].span != None):
+									classDays2.append(content[2].span.string)
+								else:
+									classDays2.append("None")
 
-    	#class Room
-    	elif classAttribute == 'Room':
-    		if(courseInfo[x].span == None):
-    			classRoom.append("Online")
-    		else:
-    			classRoom.append(courseInfo[x].span.string)
+					#Hour
+					elif(y == 2):
+						if(len(content) == 0):
+							classTime.append("None")
+							classTime2.append("None")
+						else:
+							classTime.append(content[1].string)
+							if(content[2].span != None):
+								classTime2.append(content[2].span.string)
+							else:
+								classTime2.append("None")
+					#Room
+					elif(y == 3):
+						if(len(content) == 0):
+							classRoom.append("None")
+							classRoom2.append("None")
+						else:
+							classRoom.append(content[1].string)
+							if(content[2].span != None):
+								classRoom2.append(content[2].span.string)
+							else:
+								classRoom2.append("None")
+					elif(y == 4):
+						if(len(content) == 0):
+							classInstructor.append("None")
+						else:
+							classInstructor.append(content[0].string)
+					elif(y == 5):
+						classStatus.append(content[0].string)
 
-    	#class Instructor
-    	elif classAttribute == 'Instructor':
-    		if(courseInfo[x].span == None):
-    			classInstructor.append("None")
-    		else:
-    			classInstructor.append(courseInfo[x].span.string)
-    			
 
-    	#class Status
-    	elif classAttribute == 'Status':
-    		classStatus.append(courseInfo[x].string)
-    			
+				x += 1
+				if(x == len(courseInfo)):
+					break
+
+				classAttribute = courseInfo[x].td.get('class')
+				if(classAttribute != None ):
+					break
 
 
 #write parsed data to file
 for x in range(len(className)):
-	test.write(className[x] + '\n')
-	test.write(classUnique[x] + '\n')
-	test.write(classStatus[x] + '\n')
-	test.write(classDays[x] + '\n')
-	test.write(classTime[x] + '\n')
-	test.write(classRoom[x] + '\n')
-	test.write(classInstructor[x] + '\n')
+	test.write("Course Name: " + className[x] + '\n')
+	test.write("Unique Number: " + classUnique[x] + '\n')
+	test.write("Status: " + classStatus[x] + '\n')
+	test.write("Days: " + classDays[x] + '\n')
+	test.write("      " + classDays2[x] + '\n')
+	test.write("Time: " + classTime[x] + '\n')
+	test.write("      " + classTime2[x] + '\n')
+	test.write("Room: " + classRoom[x] + '\n')
+	test.write("      " + classRoom2[x] + '\n')
+	test.write("Instructor Name: " + classInstructor[x] + '\n')
 	test.write('\n')
 
 test.close()

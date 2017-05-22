@@ -1,200 +1,330 @@
-ARI  385L CONST II: INT MATLS/ASSEMBLIES         
-00430
-closed
-TTH
-12:30 p.m.-3:30 p.m.
-WMB 3.116
-None
+Course Name: ARI  385L CONST II: INT MATLS/ASSEMBLIES         
+Unique Number: 00430
+Status: closed
+Days: TTH
+      None
+Time: 12:30 p.m.-3:30 p.m.
+      None
+Room: WMB 3.116
+      None
+Instructor Name: GLASS, T
 
-ARI  386M INSIDE UTOPIA         
-00435
-cancelled
-TTH
-5:30 p.m.-7:00 p.m.
-WMB 4.118
-None
+Course Name: ARI  386M INSIDE UTOPIA         
+Unique Number: 00435
+Status: cancelled
+Days: TTH
+      None
+Time: 5:30 p.m.-7:00 p.m.
+      None
+Room: WMB 4.118
+      None
+Instructor Name: FELIZ ARRIZABALAGA
 
-ARI  386M MANAGING THE DESIGN PROJECT         
-00440
-closed
-TH
-2:00 p.m.-5:00 p.m.
-WMB 3.108
-None
+Course Name: ARI  386M MANAGING THE DESIGN PROJECT         
+Unique Number: 00440
+Status: closed
+Days: TH
+      None
+Time: 2:00 p.m.-5:00 p.m.
+      None
+Room: WMB 3.108
+      None
+Instructor Name: JENNINGS, R
 
-ARI  386M SUPRAFICIAL         
-00445
-closed
-TH
-7:00 p.m.-10:00 p.m.
-SUT 2.110
-None
+Course Name: ARI  386M SUPRAFICIAL         
+Unique Number: 00445
+Status: closed
+Days: TH
+      None
+Time: 7:00 p.m.-10:00 p.m.
+      None
+Room: SUT 2.110
+      None
+Instructor Name: BIEG, K
 
-ARI  388K INTERIOR DESIGN HISTORY I         
-00450
-closed
-TTH
-9:30 a.m.-11:00 a.m.
-PAR 210
-None
+Course Name: ARI  388K INTERIOR DESIGN HISTORY I         
+Unique Number: 00450
+Status: closed
+Days: TTH
+      None
+Time: 9:30 a.m.-11:00 a.m.
+      None
+Room: PAR 210
+      None
+Instructor Name: DUDLEY, T
 
-ARI  388R AMERICAN HOME         
-00455
-cancelled
-W
-9:00 a.m.-12:00 p.m.
-WMB 3.116
-None
+Course Name: ARI  388R AMERICAN HOME         
+Unique Number: 00455
+Status: cancelled
+Days: W
+      None
+Time: 9:00 a.m.-12:00 p.m.
+      None
+Room: WMB 3.116
+      None
+Instructor Name: ALOFSIN, A
 
-ARI  388R CENT EUROPEAN ARCH, 1648-PRES         
-00460
-cancelled
-TTH
-12:30 p.m.-2:00 p.m.
-BTL 101
-None
+Course Name: ARI  388R CENT EUROPEAN ARCH, 1648-PRES         
+Unique Number: 00460
+Status: cancelled
+Days: TTH
+      None
+Time: 12:30 p.m.-2:00 p.m.
+      None
+Room: BTL 101
+      None
+Instructor Name: LONG, C
 
-ARI  388R FRANK LLOYD WRIGHT         
-00465
-cancelled
-TTH
-3:30 p.m.-5:00 p.m.
-GOL 3.120
-None
+Course Name: ARI  388R FRANK LLOYD WRIGHT         
+Unique Number: 00465
+Status: cancelled
+Days: TTH
+      None
+Time: 3:30 p.m.-5:00 p.m.
+      None
+Room: GOL 3.120
+      None
+Instructor Name: ALOFSIN, A
 
-ARI  388R MODERN AMERICAN DESIGN         
-00470
-cancelled
-M
-9:00 a.m.-12:00 p.m.
-BTL 101
-None
+Course Name: ARI  388R MODERN AMERICAN DESIGN         
+Unique Number: 00470
+Status: cancelled
+Days: M
+      None
+Time: 9:00 a.m.-12:00 p.m.
+      None
+Room: BTL 101
+      None
+Instructor Name: LONG, C
 
-ARI  689 RESEARCH IN INTERIOR DESIGN         
-00475
-cancelled
-None
-None
-Online
-None
+Course Name: ARI  689 RESEARCH IN INTERIOR DESIGN         
+Unique Number: 00475
+Status: cancelled
+Days: None
+      None
+Time: None
+      None
+Room: None
+      None
+Instructor Name: None
 
-ARI  392P PROTOTYPE         
-00476
-closed
-W
-7:00 p.m.-10:00 p.m.
-SUT 2.110
-None
+Course Name: ARI  392P PROTOTYPE         
+Unique Number: 00476
+Status: closed
+Days: W
+      None
+Time: 7:00 p.m.-10:00 p.m.
+      None
+Room: SUT 2.110
+      None
+Instructor Name: SIDDIQUI, I
 
-ARI  693 MASTER'S DSN STUDIO: INTERIORS         
-00477
-open; restricted
-None
-None
-Online
-None
+Course Name: ARI  693 MASTER'S DSN STUDIO: INTERIORS         
+Unique Number: 00477
+Status: open; restricted
+Days: None
+      None
+Time: None
+      None
+Room: None
+      None
+Instructor Name: None
 
-ARI  693L INTERIOR DESIGN CORE STUDIO II         
-00480
-open; restricted
-MWF
-1:00 p.m.-6:00 p.m.
-GOL 4.106
-None
+Course Name: ARI  693L INTERIOR DESIGN CORE STUDIO II         
+Unique Number: 00480
+Status: open; restricted
+Days: MWF
+      None
+Time: 1:00 p.m.-6:00 p.m.
+      None
+Room: GOL 4.106
+      None
+Instructor Name: ALFORD, E
 
-ARI  695 INTERIOR DSGN: TECHNCL STUDIO         
-00485
-open; restricted
-MWF
-1:00 p.m.-6:00 p.m.
-GOL 3.112
-None
+Course Name: ARI  695 INTERIOR DSGN: TECHNCL STUDIO         
+Unique Number: 00485
+Status: open; restricted
+Days: MWF
+      None
+Time: 1:00 p.m.-6:00 p.m.
+      None
+Room: GOL 3.112
+      None
+Instructor Name: JOHNSON, D
 
-ARI  395D FRANK LLOYD WRIGHT: DES/MTD/TH         
-00487
-cancelled
-T
-2:00 p.m.-5:00 p.m.
-WMB 4.118
-None
+Course Name: ARI  395D FRANK LLOYD WRIGHT: DES/MTD/TH         
+Unique Number: 00487
+Status: cancelled
+Days: T
+      None
+Time: 2:00 p.m.-5:00 p.m.
+      None
+Room: WMB 4.118
+      None
+Instructor Name: ALOFSIN, A
 
-ARI  395G AMERICAN HOME: ID/PROC/MKTNG         
-00489
-cancelled
-W
-9:00 a.m.-12:00 p.m.
-WMB 3.116
-None
+Course Name: ARI  395G AMERICAN HOME: ID/PROC/MKTNG         
+Unique Number: 00489
+Status: cancelled
+Days: W
+      None
+Time: 9:00 a.m.-12:00 p.m.
+      None
+Room: WMB 3.116
+      None
+Instructor Name: ALOFSIN, A
 
-ARI  696 ADV DESIGN: INTERIORS         
-00490
-closed
-MWF
-1:00 p.m.-6:00 p.m.
-GOL 2.214
-None
+Course Name: ARI  696 ADV DESIGN: INTERIORS         
+Unique Number: 00490
+Status: closed
+Days: MWF
+      None
+Time: 1:00 p.m.-6:00 p.m.
+      None
+Room: GOL 2.214
+      None
+Instructor Name: BLACK, C
 
-ARI  696 ADV DSGN: GULF COAST DSGN LAB         
-00495
-cancelled
-None
-None
-Online
-None
+Course Name: ARI  696 ADV DESIGN: INTERIORS         
+Unique Number: 00495
+Status: cancelled
+Days: None
+      None
+Time: None
+      None
+Room: None
+      None
+Instructor Name: None
 
-ARI  696 ADV DESIGN: URBAN DESIGN         
-00500
-cancelled
-MWF
-1:00 p.m.-6:00 p.m.
-SUT 2.102
-None
+Course Name: ARI  696 ADV DSGN: GULF COAST DSGN LAB         
+Unique Number: 00500
+Status: cancelled
+Days: MWF
+      None
+Time: 1:00 p.m.-6:00 p.m.
+      None
+Room: SUT 2.102
+      None
+Instructor Name: COKER, C
 
-ARI  696 ADV DESIGN: VISITING CRITIC         
-00505
-cancelled
-MWF
-1:00 p.m.-6:00 p.m.
- 
-None
+Course Name: ARI  696 ADV DESIGN: URBAN DESIGN         
+Unique Number: 00505
+Status: cancelled
+Days: MWF
+      None
+Time: 1:00 p.m.-6:00 p.m.
+      None
+Room:  
+      None
+Instructor Name: None
 
-ARI  696 ADVANCED DESIGN         
-00510
-cancelled
-MWF
-1:00 p.m.-6:00 p.m.
- 
-None
+Course Name: ARI  696 ADV DESIGN: VISITING CRITIC         
+Unique Number: 00510
+Status: cancelled
+Days: MWF
+      None
+Time: 1:00 p.m.-6:00 p.m.
+      None
+Room:  
+      None
+Instructor Name: None
 
-ARI  696 ADVANCED DESIGN: STUDIO MEXICO         
-00515
-cancelled
-MWF
-1:00 p.m.-6:00 p.m.
- 
-None
+Course Name: ARI  696 ADVANCED DESIGN         
+Unique Number: 00515
+Status: cancelled
+Days: MWF
+      None
+Time: 1:00 p.m.-6:00 p.m.
+      None
+Room:  
+      None
+Instructor Name: None
 
-ARI  197 INTERIOR DESIGN INTERNSHIP         
-00520
-cancelled
-MWF
-1:00 p.m.-6:00 p.m.
- 
-None
+Course Name: ARI  696 ADVANCED DESIGN: STUDIO MEXICO         
+Unique Number: 00520
+Status: cancelled
+Days: MWF
+      None
+Time: 1:00 p.m.-6:00 p.m.
+      None
+Room:  
+      None
+Instructor Name: None
 
-ARI  698B THESIS         
-00525
-cancelled
-None
-None
-Online
-None
+Course Name: ARI  197 INTERIOR DESIGN INTERNSHIP         
+Unique Number: 00525
+Status: cancelled
+Days: None
+      None
+Time: None
+      None
+Room: None
+      None
+Instructor Name: None
 
-ARC  308 ARCHITECTURE AND SOCIETY         
-00530
-open; restricted
-None
-None
-Online
-None
+Course Name: ARI  698B THESIS         
+Unique Number: 00530
+Status: open; restricted
+Days: None
+      None
+Time: None
+      None
+Room: None
+      None
+Instructor Name: None
+
+Course Name: ARC  308 ARCHITECTURE AND SOCIETY         
+Unique Number: 00585
+Status: closed
+Days: TTH
+      M
+Time: 12:30 p.m.-2:00 p.m.
+      9:00 a.m.-10:00 a.m.
+Room: BUR 106
+      MEZ 1.208
+Instructor Name: SPECK, L
+
+Course Name: ARC  308 ARCHITECTURE AND SOCIETY         
+Unique Number: 00590
+Status: open
+Days: TTH
+      W
+Time: 12:30 p.m.-2:00 p.m.
+      9:00 a.m.-10:00 a.m.
+Room: BUR 106
+      MEZ 1.202
+Instructor Name: SPECK, L
+
+Course Name: ARC  308 ARCHITECTURE AND SOCIETY         
+Unique Number: 00595
+Status: closed
+Days: TTH
+      W
+Time: 12:30 p.m.-2:00 p.m.
+      9:00 a.m.-10:00 a.m.
+Room: BUR 106
+      GAR 0.128
+Instructor Name: SPECK, L
+
+Course Name: ARC  308 ARCHITECTURE AND SOCIETY         
+Unique Number: 00600
+Status: open
+Days: TTH
+      F
+Time: 12:30 p.m.-2:00 p.m.
+      9:00 a.m.-10:00 a.m.
+Room: BUR 106
+      PAR 306
+Instructor Name: SPECK, L
+
+Course Name: ARC  308 ARCHITECTURE AND SOCIETY         
+Unique Number: 00605
+Status: open
+Days: TTH
+      F
+Time: 12:30 p.m.-2:00 p.m.
+      9:00 a.m.-10:00 a.m.
+Room: BUR 106
+      WMB 4.118
+Instructor Name: SPECK, L
 
