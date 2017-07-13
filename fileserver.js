@@ -43,6 +43,6 @@ app.post("/queryDatabase", function(req, res){
 });
 
 app.use(cors());
-app.listen(process.evn.PORT || 8080);
+app.listen(process.env.PORT || 8080);
 
 console.log("Server Listenting on Port: 3000");
