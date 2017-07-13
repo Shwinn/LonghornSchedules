@@ -4,6 +4,7 @@
   "description": "just some testing",
   "main": "fileserver.js",
   "scripts": {
+	"start": "node fileserver.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Avishka Suduwa Dewage",
