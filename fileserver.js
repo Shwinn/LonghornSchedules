@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var app = express(); //create new instance of express application
 
-var classData = JSON.parse(fs.readFileSync('jsonData.JSON', 'utf8'));
+var classData = JSON.parse(fs.readFileSync('jsonData.json', 'utf8'));
 
 app.use(bodyParser.urlencoded({ extended: false}));
 
@@ -43,6 +43,6 @@ app.post("/queryDatabase", function(req, res){
 });
 
 app.use(cors());
-app.listen(3000);
+app.listen(process.evn.PORT || 8080);
 
 console.log("Server Listenting on Port: 3000");
