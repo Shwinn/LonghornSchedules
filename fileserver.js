@@ -45,4 +45,4 @@ app.post("/queryDatabase", function(req, res){
 app.use(cors());
 app.listen(process.env.PORT || 8080);
 
-console.log("Server Listenting on Port: 3000");
+console.log("Server Listenting on Port: 8080");
