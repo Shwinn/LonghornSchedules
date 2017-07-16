@@ -20,26 +20,20 @@ app.use(function(req, res, next){
 app.use(express.static("./public"));
 
 app.post("/queryDatabase", function(req, res){
-  console.log(req.body.searchField);
-  var jsonString = "[";
+  //convert user input to a reg-exp object
+  var dataRegExp = new RegExp(req.body.searchField);
+
+  //find matches using query
+  var jsonArray = [];
   for(i = 0; i < classData.length; i++){
-    console.log(classData[i].CourseName);
-    if(classData[i].CourseName.search(req.body.searchField) != -1){
-      jsonString += "{" + classData[i].CourseName + ","
-        + classData[i].UniqueNumber + ","
-        + classData[i].Status + ","
-        + classData[i].Days + ","
-        + classData[i].Days2 + ","
-        + classData[i].Time + ","
-        + classData[i].Time2 + ","
-        + classData[i].Room + ","
-        + classData[i].Room2 + ","
-        + classData[i]['Instructor Name'] + "}";
+    if(dataRegExp.test(classData[i].CourseName)){
+      console.log("found!");
+      jsonArray.push(classData[i]);
     }
   }
-  jsonString += "]";
-  var jsonData = JSON.stringify(jsonString);
-  res.end(jsonData);
+
+  var jsonString = JSON.stringify(jsonArray);
+  res.end(jsonString);
 });
 
 app.use(cors());
