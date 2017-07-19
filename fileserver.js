@@ -50,7 +50,7 @@ app.post("/queryDatabase", function(req, res){
   //find matches using query
   var jsonArray = []; //matching data to be added in here
   for(i = 0; i < classData.length; i++){
-    if(dataRegExp.test(classData[i].CourseName)){
+    if(dataRegExp.test(classData[i].CourseName.toLowerCase())){
       console.log("found!");
       jsonArray.push(classData[i]);
     }
