@@ -27,7 +27,7 @@ courseInfo = soup.find_all('tr')
 courseInfoDataLength = len(courseInfo)
 
 for x in range(len(courseInfo)-1):
-	print("working " + str(x) + " of " + str(courseInfoDataLength))
+	#print("working " + str(x) + " of " + str(courseInfoDataLength))
 	if(courseInfo[x].td != None):
 
 		classAttribute = courseInfo[x].td.get('class')
@@ -43,12 +43,15 @@ for x in range(len(courseInfo)-1):
 					classData = courseInfo[x].find_all('td')
 
 					for y in range(6):
+						#splits remaining data into array e.g [' ', <span>MWF</span>, <br/>, ' ', <span class="second-row">W</span>, <br/>, ' ']
 						content = classData[y].contents
+
 
 						#unique ID
 						if(y == 0):
 							classUnique.append(content[0].string)
 						#Days
+
 						elif(y == 1):
 							if(len(content) == 0):
 								classDays.append("None")
@@ -56,8 +59,11 @@ for x in range(len(courseInfo)-1):
 							else:
 								if(content[1] != None):
 									classDays.append(content[1].string)
-									if(content[2].span != None):
-										classDays2.append(content[2].span.string)
+									if(len(content) > 4):
+										if(content[4] != None):
+											classDays2.append(content[4].string)
+										else:
+											classDays2.append("None")
 									else:
 										classDays2.append("None")
 
@@ -68,8 +74,11 @@ for x in range(len(courseInfo)-1):
 								classTime2.append("None")
 							else:
 								classTime.append(content[1].string)
-								if(content[2].span != None):
-									classTime2.append(content[2].span.string)
+								if(len(content) > 4):
+									if(content[4] != None):
+										classTime2.append(content[4].string)
+									else:
+										classTime2.append("None")
 								else:
 									classTime2.append("None")
 						#Room
@@ -79,8 +88,11 @@ for x in range(len(courseInfo)-1):
 								classRoom2.append("None")
 							else:
 								classRoom.append(content[1].string)
-								if(content[2].span != None):
-									classRoom2.append(content[2].span.string)
+								if(len(content) > 4):
+									if(content[4] != None):
+										classRoom2.append(content[4].string)
+									else:
+										classRoom2.append("None")
 								else:
 									classRoom2.append("None")
 
