@@ -20,8 +20,12 @@ with open('../jsonData.json', 'r') as data_file:
 
     majorName = tempName
 
-
-with open('majorNames.txt', 'w') as majorNameList:
-    for names in majorName:
-        majorNameList.write(names)
-        majorNameList.write('\n')
+with open('majorNames.json', 'w') as majorNameList:
+    majorNameList.write("[\n")
+    for i in range(len(majorName)):
+        if(i != len(majorName) - 1):
+            majorNameList.write("\t" + '"' + majorName[i] + '"')
+            majorNameList.write(",\n")
+        else:
+            majorNameList.write('\t"' + majorName[i] + '"\n')
+            majorNameList.write("]")

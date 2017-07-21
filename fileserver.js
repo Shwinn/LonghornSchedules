@@ -7,7 +7,8 @@ var bodyParser = require('body-parser');
 
 var app = express(); //create new instance of express application
 
-var classData = JSON.parse(fs.readFileSync('jsonData.json', 'utf8'));
+var classData = JSON.parse(fs.readFileSync('./Data_Parsing/jsonData.json', 'utf8'));
+var majorNames = JSON.parse(fs.readFileSync('./majorListingScript/majorNames.json', 'utf8'));
 
 app.use(bodyParser.urlencoded({ extended: false}));
 
@@ -19,6 +20,7 @@ app.use(function(req, res, next){
 
 app.use(express.static("./public"));
 
+/*
 app.post("/queryDatabase", function(req, res){
   //convert user input to a reg-exp object
   var dataRegExp = new RegExp(req.body.searchField.toLowerCase());
@@ -35,6 +37,22 @@ app.post("/queryDatabase", function(req, res){
   var jsonString = JSON.stringify(jsonArray);
   res.end(jsonString);
 });
+*/
+
+//send full list of data to server
+
+app.get("/getFullData", function(req, res){
+  var jsonString = JSON.stringify(classData);
+  res.end(jsonString);
+});
+
+//send list of majorNames
+
+app.get("/getMajorData", function(req, res){
+  var jsonString = JSON.stringify(majorNames);
+  res.end(jsonString);
+})
+
 
 app.use(cors());
 app.listen(process.env.PORT || 8080);

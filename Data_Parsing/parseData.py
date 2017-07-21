@@ -27,7 +27,7 @@ courseInfo = soup.find_all('tr')
 courseInfoDataLength = len(courseInfo)
 
 for x in range(len(courseInfo)-1):
-	#print("working " + str(x) + " of " + str(courseInfoDataLength))
+	print("working " + str(x) + " of " + str(courseInfoDataLength))
 	if(courseInfo[x].td != None):
 
 		classAttribute = courseInfo[x].td.get('class')
@@ -116,9 +116,9 @@ for x in range(len(courseInfo)-1):
 
 
 #write parsed data in JSON format
-test.write('{\n  "Names":[\n')
+test.write('[\n')
 for x in range(len(className)):
-	test.write('    {\n      "CourseName": "' + className[x] + '",\n')
+	test.write('   {\n      "CourseName": "' + className[x] + '",\n')
 	test.write('      "Unique Number": "' + classUnique[x] + '",\n')
 	test.write('      "Status": "'+ classStatus[x] + '",\n')
 	test.write('      "Days": "' + classDays[x] + '",\n')
@@ -134,6 +134,6 @@ for x in range(len(className)):
 	else:
 		test.write("\n")
 
-test.write("]}")
+test.write("]")
 test.close()
 data.close()
