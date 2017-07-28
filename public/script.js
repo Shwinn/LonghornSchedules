@@ -17,21 +17,26 @@ $.get("/getMajorData", function(data){
 
 function populateMajorDropDown(){
   for(i = 0; i < studentMajorData.length; i++){
-    $("#majorDropDown").append("<option value=" + studentMajorData[i] + ">" + studentMajorData[i] + "</option");
+    $("#majorDropDown").append("<option value='" + studentMajorData[i] + "'>" + studentMajorData[i] + "</option");
   }
 }
 
 
 $(document).ready(function(){
   $('#submitSearch').click(function(){
-    /*
-    $.post("/queryDatabase", $('#classSearch').serialize(), function(data){
-      var jsonQuery = JSON.parse(data); //parse queried JSON Data
-      console.log(jsonQuery);
+    $('#searchedClasses').empty();
+    $('#searchedClasses').append("<ul>");
 
-    });
-    */
 
-    console.log($('#classSearch').serialize())
+    var selectedMajor = $("#majorDropDown").val();
+    console.log(selectedMajor);
+
+    for(i = 0; i < fullClassData.length; i++){
+      var classMajor = fullClassData[i].CourseName.substring(0,3);
+      if(classMajor == selectedMajor){
+        $('#searchedClasses').append("<li>" + fullClassData[i].CourseName + "</li>");
+      }
+    }
+    $('#searchedClasses').append("</ul>");
   });
 });

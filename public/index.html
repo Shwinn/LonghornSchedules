@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <script type="text/javascript" src="jquery.js"></script>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
     <style>
     body {
@@ -15,11 +15,13 @@
     <select name = "majorList" formid="classSearch" id="majorDropDown">
     </select>
 
-    <form id = "classSearch">
+    <form id = "classSearch" name = "classSearchForm">
       <input id = "submitSearch" type="button" value="Send Data"/>
     </form>
 
-
+    <div id = "searchedClasses">
+      
+    </div>
 
   </body>
 </html>
