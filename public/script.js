@@ -24,19 +24,31 @@ function populateMajorDropDown(){
 
 $(document).ready(function(){
   $('#submitSearch').click(function(){
+    //clear previously generated data
     $('#searchedClasses').empty();
-    $('#searchedClasses').append("<ul>");
 
-
+    //get value currently in drop down
     var selectedMajor = $("#majorDropDown").val();
-    console.log(selectedMajor);
 
+    var generatedClassArea = $('#searchedClasses');
+
+    //generatedClassArea.append("<tr>")
+
+    //based on data in drop down, populate site with classes
     for(i = 0; i < fullClassData.length; i++){
       var classMajor = fullClassData[i].CourseName.substring(0,3);
       if(classMajor == selectedMajor){
-        $('#searchedClasses').append("<li>" + fullClassData[i].CourseName + "</li>");
+        generatedClassArea.append("<tr><td>");
+
+        generatedClassArea.append("<label for='" + fullClassData[i].CourseName + "'>" + fullClassData[i].CourseName + "</label>");
+        generatedClassArea.append("<input type='radio' name='generatedClassData' name='" + fullClassData[i].CourseName + "'>");
+
+        generatedClassArea.append('</td></tr>');
+
       }
     }
-    $('#searchedClasses').append("</ul>");
+
+    //generatedClassArea.append("</tr>");
+
   });
 });
