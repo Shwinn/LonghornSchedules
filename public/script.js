@@ -38,10 +38,10 @@ $(document).ready(function(){
     for(i = 0; i < fullClassData.length; i++){
       var classMajor = fullClassData[i].CourseName.substring(0,3);
       if(classMajor == selectedMajor){
-        generatedClassArea.append("<tr><td>");
+        generatedClassArea.append("<tr><td >");
 
-        generatedClassArea.append("<label for='" + fullClassData[i].CourseName + "'>" + fullClassData[i].CourseName + "</label>");
-        generatedClassArea.append("<input type='radio' name='generatedClassData' name='" + fullClassData[i].CourseName + "'>");
+        generatedClassArea.append("<label style='border: 3px solid red; border-radius: 5px;' for='" + fullClassData[i].CourseName + "'>" + fullClassData[i].CourseName + "</label>");
+        generatedClassArea.append("<input  type='checkbox' name='generatedClassData' value='" + fullClassData[i].CourseName + "'>");
 
         generatedClassArea.append('</td></tr>');
 
