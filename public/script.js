@@ -26,7 +26,6 @@ $(document).ready(function(){
   $('#submitSearch').click(function(){
     //clear previously generated data
     $('#searchedClasses').empty();
-
     //get value currently in drop down
     var selectedMajor = $("#majorDropDown").val();
 
@@ -38,17 +37,38 @@ $(document).ready(function(){
     for(i = 0; i < fullClassData.length; i++){
       var classMajor = fullClassData[i].CourseName.substring(0,3);
       if(classMajor == selectedMajor){
-        generatedClassArea.append("<tr><td >");
+        generatedClassArea.append("<tr>");
+        generatedClassArea.append("</td><input  type='checkbox' class='generatedClass' name='generatedClassData' value='" + fullClassData[i]['Unique Number'] + "'></td>");
 
-        generatedClassArea.append("<label style='border: 3px solid red; border-radius: 5px;' for='" + fullClassData[i].CourseName + "'>" + fullClassData[i].CourseName + "</label>");
-        generatedClassArea.append("<input  type='checkbox' name='generatedClassData' value='" + fullClassData[i].CourseName + "'>");
+        generatedClassArea.append("<td>" + fullClassData[i]['Unique Number'] + "<td>");
 
-        generatedClassArea.append('</td></tr>');
+        generatedClassArea.append("<td ><label style='border: 3px solid red; border-radius: 5px;' for='" + fullClassData[i].CourseName + "'>" + fullClassData[i].CourseName + "</label></td>");
+
+
+        generatedClassArea.append('</tr>');
+
 
       }
     }
 
+    generatedClassArea.append("<input type='button' id='sendChosenData' value='Generate Data'>");
+
     //generatedClassArea.append("</tr>");
+
+  });
+});
+
+$(document).ready(function(){
+  $('#searchedClasses').on("click", "#sendChosenData" , function(){
+    var chosenClasses = [];
+    $('.generatedClass:checkbox:checked').each(function (){
+      chosenClasses.push($(this).val());
+    });
+
+    $.post("/sendChosenData", {"chosenClasses" : chosenClasses}, function(data){
+      //parse returned jason file
+      //var generatedClasses = JSON.parse(data);
+    });
 
   });
 });

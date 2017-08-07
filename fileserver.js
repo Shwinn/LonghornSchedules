@@ -46,6 +46,12 @@ app.get("/getFullData", function(req, res){
   res.end(jsonString);
 });
 
+app.post("/sendChosenData", function(req, res){
+  var data = req.body["chosenClasses[]"];
+  console.log(data[1]);
+  res.end();
+})
+
 //send list of majorNames
 
 app.get("/getMajorData", function(req, res){
