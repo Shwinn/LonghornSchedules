@@ -4,6 +4,7 @@ var path = require('path');
 var express = require('express');
 var cors = require('cors');
 var bodyParser = require('body-parser');
+var logic = require('./schedulingAlgorithm/logic.js');
 
 var app = express(); //create new instance of express application
 
@@ -48,7 +49,17 @@ app.get("/getFullData", function(req, res){
 
 app.post("/sendChosenData", function(req, res){
   var data = req.body["chosenClasses[]"];
-  console.log(data[1]);
+  var classes = [];
+  for(i = 0; i < data.length; i++){
+    for(c = 0; c < classData.length; c++){
+      if(data[i] === classData[c]["Unique Number"]){
+        classes.push(classData[c]);
+      }
+    }
+  }
+
+  logic.generateSchedules(classes);
+
   res.end();
 })
 

@@ -21,7 +21,7 @@ function populateMajorDropDown(){
   }
 }
 
-
+//generate classes based on major chosen in dropdown
 $(document).ready(function(){
   $('#submitSearch').click(function(){
     //clear previously generated data
@@ -58,6 +58,7 @@ $(document).ready(function(){
   });
 });
 
+//send chosen classes to server to generate different schedules
 $(document).ready(function(){
   $('#searchedClasses').on("click", "#sendChosenData" , function(){
     var chosenClasses = [];
