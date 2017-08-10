@@ -50,13 +50,23 @@ app.get("/getFullData", function(req, res){
 app.post("/sendChosenData", function(req, res){
   var data = req.body["chosenClasses[]"];
   var classes = [];
-  for(i = 0; i < data.length; i++){
-    for(c = 0; c < classData.length; c++){
-      if(data[i] === classData[c]["Unique Number"]){
-        classes.push(classData[c]);
+  //data type of 'data' changes depending on whether it is given 1 class or multiple from client. If 1 is passed from client, then data type is string, otherwise it is object
+  if(typeof(data) == 'object'){
+    for(i = 0; i < data.length; i++){
+      for(c = 0; c < classData.length; c++){
+        if(data[i] === classData[c]["Unique Number"]){
+          classes.push(classData[c]);
+        }
+      }
+    }
+  }else{
+    for(i = 0; i < classData.length; i++){
+      if(classData[i]["Unique Number"] === data){
+        classes.push(classData[i]);
       }
     }
   }
+
 
   logic.generateSchedules(classes);
 
