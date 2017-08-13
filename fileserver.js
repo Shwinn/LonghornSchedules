@@ -21,25 +21,6 @@ app.use(function(req, res, next){
 
 app.use(express.static("./public"));
 
-/*
-app.post("/queryDatabase", function(req, res){
-  //convert user input to a reg-exp object
-  var dataRegExp = new RegExp(req.body.searchField.toLowerCase());
-
-  //find matches using query
-  var jsonArray = []; //matching data to be added in here
-  for(i = 0; i < classData.length; i++){
-    if(dataRegExp.test(classData[i].CourseName.toLowerCase())){
-      console.log("found!");
-      jsonArray.push(classData[i]);
-    }
-  }
-
-  var jsonString = JSON.stringify(jsonArray);
-  res.end(jsonString);
-});
-*/
-
 //send full list of data to server
 
 app.get("/getFullData", function(req, res){
