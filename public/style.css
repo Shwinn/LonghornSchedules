@@ -2,7 +2,13 @@ body {
   background-color: #eac086;
 }
 
+#generatedClasses {
+}
+
 #calendar {
+  position: fixed;
+  right: 10px;
+  top: 10px;
   height: 40%;
   width: 40%;
 }

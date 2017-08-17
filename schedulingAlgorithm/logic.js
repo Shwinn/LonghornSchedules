@@ -24,8 +24,8 @@ var generateSchedules = function(data){
   //change currentCombination in order to get next class
   while(true){
     //add current combinations classes to 'week' array
-    for(i = 0; i < currentCombination.length; i++){
-      var classObject = chosenClasses[indexes[i][currentCombination[i]]];
+    for(z = 0; z < currentCombination.length; z++){
+      var classObject = chosenClasses[indexes[z][currentCombination[z]]];
       //get military time of classes and convert it to week Index
       var time1 = convertRawToWeek(getTime(classObject.Time));
 

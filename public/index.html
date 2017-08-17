@@ -3,16 +3,6 @@
     <meta charset="utf-8">
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="fullcalendar.js"></script>
-
-    <link rel='stylesheet' href = 'fullcalendar-3.4.0/fullcalendar.css' />
-    <link href='fullcalendar-3.4.0/fullcalendar-scheduler-1.6.2/scheduler.css' rel='stylesheet' />
-    <script src='fullcalendar-3.4.0/lib/moment.min.js'></script>
-    <script src='fullcalendar-3.4.0/fullcalendar.js'></script>
-    <script src='fullcalendar-3.4.0/fullcalendar-scheduler-1.6.2/scheduler.js'></script>
-
-    <script type='text/javascript' src='calendar.js'></script>
-
     <link rel="stylesheet" href="style.css">
   </head>
 
@@ -21,19 +11,28 @@
     </select>
 
     <form id = "classSearch" name = "classSearchForm">
-      <input id = "submitSearch" type="button" value="Send Data"/>
+      <input id = "submitSearch" type="button" value="Search Major"/>
       <div id="generatedClasses">
         <table >
           <tbody id = "searchedClasses">
-
-
           </tbody>
-
         </table>
       </div>
     </form>
 
-    <div id=calendar></div>
+
+    <p> Selected Classes </p>
+    <form id = "classSelect" name = "classSelectForm">
+      <table>
+        <tbody id="selectedClasses">
+        </tbody>
+
+        <div id="removeSelectedClassesButton">
+        </div>
+      </table>
+
+    </form>
+
 
 
   </body>

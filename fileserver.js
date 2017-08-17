@@ -30,6 +30,7 @@ app.get("/getFullData", function(req, res){
 
 app.post("/sendChosenData", function(req, res){
   var data = req.body["chosenClasses[]"];
+
   var classes = [];
   //data type of 'data' changes depending on whether it is given 1 class or multiple from client. If 1 is passed from client, then data type is string, otherwise it is object
   if(typeof(data) == 'object'){
@@ -48,10 +49,7 @@ app.post("/sendChosenData", function(req, res){
     }
   }
 
-
-  logic.generateSchedules(classes);
-
-  res.end();
+  res.end(JSON.stringify(logic.generateSchedules(classes)));
 })
 
 //send list of majorNames
