@@ -14,7 +14,7 @@ var majorNames = JSON.parse(fs.readFileSync('./majorListingScript/majorNames.jso
 app.use(bodyParser.urlencoded({ extended: false}));
 
 app.use(function(req, res, next){
-  console.log(`Method: ${req.method} from: ${req.url}`);
+  //console.log(`Method: ${req.method} from: ${req.url}`);
   next();
 });
 
@@ -48,16 +48,18 @@ app.post("/sendChosenData", function(req, res){
       }
     }
   }
+  var completeListOfSchedules = logic.generateSchedules(classes);
 
-  res.end(JSON.stringify(logic.generateSchedules(classes)));
-})
+  console.log(completeListOfSchedules);
+
+  res.end(JSON.stringify(completeListOfSchedules));
+});
 
 //send list of majorNames
-
 app.get("/getMajorData", function(req, res){
   var jsonString = JSON.stringify(majorNames);
   res.end(jsonString);
-})
+});
 
 
 app.use(cors());

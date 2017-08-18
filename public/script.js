@@ -88,6 +88,8 @@ $(document).ready(function(){
 
     });
 
+    //generate buttons to generate schdules and clear selected classes -- we only want them
+    //when there are classes chosen
     if($('#removeSelectedClassesButton').children().length === 0){
       $('#removeSelectedClassesButton').append("<input type='button' id='clearSelectedClasses' value='Clear Selected Classes'>");
       $('#removeSelectedClassesButton').append("<input type='button' id='generateSchedules' value= 'Generate Schedules'>");
@@ -95,12 +97,6 @@ $(document).ready(function(){
 
     }
 
-    /*
-    $.post("/sendChosenData", {"chosenClasses" : chosenClasses}, function(data){
-      //parse returned jason file
-      //var generatedClasses = JSON.parse(data);
-    });
-    */
   });
 });
 
@@ -121,8 +117,11 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('#removeSelectedClassesButton').on('click', "#generateSchedules", function(){
     $.post("/sendChosenData", {"chosenClasses" : selectedClasses}, function(data){
+      selectedClasses = [];
+
       //locally save the data  -- have to clear later
       window.localStorage.setItem("classSchedules", data);
+      //set window to generated schedules page
       window.location.href = './generatedSchedules.html';
     });
 

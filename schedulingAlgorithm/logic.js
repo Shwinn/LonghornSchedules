@@ -1,7 +1,9 @@
+require('console.table');
+
 var generateSchedules = function(data){
+
   var chosenClasses = data;
   var allSchedules = [];
-
   //initialize 'week' array
   //-----------M--W-T--Th-F
   var week = [[],[],[],[],[]];
@@ -34,17 +36,19 @@ var generateSchedules = function(data){
 
       //add times to 'week' array
       for(i = 0; i < day1.length; i++){
-        for(c = time1[0]; c <= time1[1]; c++){
+        for(c = time1[0]; c < time1[1]; c++){
           week[day1[i]][c] += 1;
         }
       }
 
+
       //if a second time and day is associated with this class, perform the same operations as for time/day 1
-      if(classObject.Time2 != null && classObject.Days2 != null){
+      if(classObject.Time2 !== "None" && classObject.Days2 !== "None"){
+        console.log("yay!");
         var time2 = convertRawToWeek(getTime(classObject.Time2));
         var day2 = getDays(classObject.Days2);
         for(i = 0; i < day2.length; i++){
-          for(c = time2[0]; c <= time2[1]; c++){
+          for(c = time2[0]; c < time2[1]; c++){
             week[day2[i]][c] += 1;
           }
         }
@@ -53,27 +57,36 @@ var generateSchedules = function(data){
     }
 
     //check if current combination of classes is valid (has no conflicts)
+
     var conflicts = false;
     for(i = 0; i < week.length; i++){
       for(c = 0; c < week[i].length; c++){
         if(week[i][c] > 1){
+          console.log("conflict: " + i + " " + c);
           conflicts = true;
           break;
         }
       }
-      if (conflicts = true){
+      if (conflicts === true){
         break;
       }
     }
 
     //if no conflicts exist, then add this combination to the list of possible schedules
+
     if(conflicts === false){
-      allSchedules.push(currentCombination);
+      //create an array with the combination of classes (classObject), and then push that onto allSchedules
+      var currentSchedule = [];
+      for(i = 0; i < currentCombination.length; i++){
+        var classObject = chosenClasses[indexes[i][currentCombination[i]]];
+        currentSchedule.push(classObject);
+      }
+      allSchedules.push(currentSchedule);
     }
 
     //reset week array to all 0's
     for(i = 0; i < week.length; i++){
-      for(c = 0; c < week.length; c++){
+      for(c = 0; c < week[i].length; c++){
         week[i][c] = 0;
       }
     }
@@ -210,3 +223,4 @@ function getIndexNumber(chosenClasses){
 }
 
 exports.generateSchedules = generateSchedules;
+exports.getTime = getTime;
