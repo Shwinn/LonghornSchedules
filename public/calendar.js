@@ -5,62 +5,71 @@ $(document).ready(function(){
 function generateCalendars(){
   var classSchedules = JSON.parse(window.localStorage.getItem('classSchedules'));
 
-  for(i = 0; i < classSchedules.length; i++){
-    var calendarNumber = 'calendar' + i;
-    $('body').append("<div class='generatedCalendar' id = '" + calendarNumber + "'></div>");
+  //check if there are any combinations
+  if(classSchedules.length !== 0){
 
-    //create the event array of objects
-    var classEvents = [];
-    for(c = 0; c < classSchedules[i].length; c++){
-      //get Days
-      var classDays = getDays(classSchedules[i][c].Days);
-      var classTimes1 = getTime(classSchedules[i][c].Time);
+    for(i = 0; i < classSchedules.length; i++){
+      var calendarNumber = 'calendar' + i;
+      $('body').append("<div class='generatedCalendar' id = '" + calendarNumber + "'></div>");
 
-      for(z = 0; z < classDays.length; z++){
-
-        var dates = getDateString(classDays[z], classTimes1);
-
-        var eventObject = {
-          title : classSchedules[i][c].CourseName,
-          start : dates[0],
-          end : dates[1]
-        }
-
-        classEvents.push(eventObject);
-      }
-
-
-      if(classSchedules[i][c].Days2 !== "None"){
+      //create the event array of objects
+      var classEvents = [];
+      for(c = 0; c < classSchedules[i].length; c++){
         //get Days
-        var classDays2 = getDays(classSchedules[i][c].Days2);
-        var classTimes2 = getTime(classSchedules[i][c].Time2);
+        var classDays = getDays(classSchedules[i][c].Days);
+        var classTimes1 = getTime(classSchedules[i][c].Time);
 
+        for(z = 0; z < classDays.length; z++){
 
-        for(z = 0; z < classDays2.length; z++){
-          var dates = getDateString(classDays2[z], classTimes2);
+          var dates = getDateString(classDays[z], classTimes1);
 
           var eventObject = {
             title : classSchedules[i][c].CourseName,
             start : dates[0],
             end : dates[1]
           }
+
           classEvents.push(eventObject);
         }
-      }
-    }
 
-    var concatonatedCalendarName = '#' + calendarNumber;
-    $(concatonatedCalendarName).fullCalendar({
-      schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
-      defaultDate: '2017-05-05',
-      weekends: false,
-      defaultView: 'agendaWeek',
-      minTime: '08:00:00',
-      allDaySlot: false,
-      header: false,
-      columnFormat: 'ddd',
-      events: classEvents
-    });
+
+        if(classSchedules[i][c].Days2 !== "None"){
+          //get Days
+          var classDays2 = getDays(classSchedules[i][c].Days2);
+          var classTimes2 = getTime(classSchedules[i][c].Time2);
+
+
+          for(z = 0; z < classDays2.length; z++){
+            var dates = getDateString(classDays2[z], classTimes2);
+
+            var eventObject = {
+              title : classSchedules[i][c].CourseName,
+              start : dates[0],
+              end : dates[1]
+            }
+            classEvents.push(eventObject);
+          }
+        }
+      }
+
+      var concatonatedCalendarName = '#' + calendarNumber;
+      $(concatonatedCalendarName).fullCalendar({
+        schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
+        defaultDate: '2017-05-05',
+        weekends: false,
+        defaultView: 'agendaWeek',
+        minTime: '08:00:00',
+        allDaySlot: false,
+        header: false,
+        columnFormat: 'ddd',
+        events: classEvents
+      });
+    }
+    $('#loadingCircle').removeClass('loader');
+
+  }else{
+    $('#loadingCircle').removeClass('loader');
+    $('body').append("Sorry! No possible combinations found.")
   }
 }
 

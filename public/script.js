@@ -8,12 +8,11 @@ var selectedClasses = [];
 
 $.get("/getFullData", function(data){
   fullClassData = JSON.parse(data);
-  console.log(fullClassData);
 });
 
 $.get("/getMajorData", function(data){
   studentMajorData = JSON.parse(data);
-  console.log(studentMajorData);
+  studentMajorData.sort();
   populateMajorDropDown();
 });
 
@@ -33,29 +32,30 @@ $(document).ready(function(){
 
     var generatedClassArea = $('#searchedClasses');
 
-    //generatedClassArea.append("<tr>")
+
+    generatedClassArea.append("<input type='button' id='addSelectedClasses' value='Add Selected Classes'>");
 
     //based on data in drop down, populate site with classes
     for(i = 0; i < fullClassData.length; i++){
       var classMajor = fullClassData[i].CourseName.substring(0,3);
       if(classMajor == selectedMajor){
+        var uniqueNumber = fullClassData[i]['Unique Number'];
+        generatedClassArea.append("<div class='generatedClasses'>");
+
         generatedClassArea.append("<tr>");
-        generatedClassArea.append("</td><input  type='checkbox' class='generatedClass' name='generatedClassData' value='" + fullClassData[i]['Unique Number'] + "'></td>");
 
-        generatedClassArea.append("<td>" + fullClassData[i]['Unique Number'] + "<td>");
-
-        generatedClassArea.append("<td ><label style='border: 3px solid red; border-radius: 5px;' for='" + fullClassData[i].CourseName + "'>" + fullClassData[i].CourseName + "</label></td>");
-
+        generatedClassArea.append(`<td><input  type='checkbox' class='generatedClass' name='generatedClassData' value='${uniqueNumber}' id='${uniqueNumber}'></td>`);
+        generatedClassArea.append(`<td><label class='textLabel' for='${uniqueNumber}'>Unique Number: ${uniqueNumber} <br/>Name: ${fullClassData[i].CourseName} <br/>Instructor Name: ${fullClassData[i]['Instructor Name']} </label><td>`);
 
         generatedClassArea.append('</tr>');
 
+        generatedClassArea.append("</div>");
 
       }
     }
 
-    generatedClassArea.append("<input type='button' id='addSelectedClasses' value='Add Selected Classes'>");
 
-    //generatedClassArea.append("</tr>");
+
 
   });
 });
@@ -91,8 +91,8 @@ $(document).ready(function(){
     //generate buttons to generate schdules and clear selected classes -- we only want them
     //when there are classes chosen
     if($('#removeSelectedClassesButton').children().length === 0){
-      $('#removeSelectedClassesButton').append("<input type='button' id='clearSelectedClasses' value='Clear Selected Classes'>");
-      $('#removeSelectedClassesButton').append("<input type='button' id='generateSchedules' value= 'Generate Schedules'>");
+      $('#removeSelectedClassesButton').append("<input type='button' class='aButton' id='clearSelectedClasses' value='Clear Selected Classes'>");
+      $('#removeSelectedClassesButton').append("<input type='button' class='aButton' id='generateSchedules' value= 'Generate Schedules'>");
     }else{
 
     }
@@ -122,7 +122,9 @@ $(document).ready(function(){
       //locally save the data  -- have to clear later
       window.localStorage.setItem("classSchedules", data);
       //set window to generated schedules page
-      window.location.href = './generatedSchedules.html';
+      var url = './generatedSchedules.html'
+      var win = window.open(url, '_blank',);
+      win.focus();
     });
 
   });

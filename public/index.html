@@ -7,32 +7,39 @@
   </head>
 
   <body>
-    <select name = "majorList" form="classSearch" id="majorDropDown">
-    </select>
 
-    <form id = "classSearch" name = "classSearchForm">
-      <input id = "submitSearch" type="button" value="Search Major"/>
-      <div id="generatedClasses">
-        <table >
-          <tbody id = "searchedClasses">
+
+
+    <div id="generatedClasses">
+
+      <select name = "majorList" form="classSearch" id="majorDropDown">
+      </select>
+
+      <form id = "classSearch" name = "classSearchForm">
+        <input class='aButton' id = "submitSearch" type="button" value="Search Major"/>
+
+          <table >
+            <tbody id = "searchedClasses">
+            </tbody>
+          </table>
+      </form>
+
+    </div>
+
+    <div id='chosenClasses'>
+      <p> Selected Classes </p>
+      <form id = "classSelect" name = "classSelectForm">
+
+        <table>
+          <tbody id="selectedClasses">
           </tbody>
+
+          <div id="removeSelectedClassesButton">
+          </div>
         </table>
-      </div>
-    </form>
 
-
-    <p> Selected Classes </p>
-    <form id = "classSelect" name = "classSelectForm">
-      <table>
-        <tbody id="selectedClasses">
-        </tbody>
-
-        <div id="removeSelectedClassesButton">
-        </div>
-      </table>
-
-    </form>
-
+      </form>
+    </div>
 
 
   </body>
